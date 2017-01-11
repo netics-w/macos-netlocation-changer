@@ -2,6 +2,7 @@
 This is sample project which allows you to automatically change MacOS Network Location based on Network SSID.
 
 Sources description:
+
 network_location.py - just parses netloc.json and returns network location name based on passed SSID arg (last arg in 
   python3.5 network_location.py netloc.json $SSID)
 netloc.json - is config file with content like this:
